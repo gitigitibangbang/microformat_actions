@@ -1,0 +1,86 @@
+# Possible use cases
+
+* New CAMP front end uses it (and embeds widget for form), local building
+  * content is accessed via scraper
+  * everything else form URL (widget, counter, recent signers)
+* Actions in Campaignion importieren (use for wildfire campaigns)
+* Neues CAMP front end uses it (including form)
+* Templates with different design that use same markup
+* Scraping of various online action platforms, saving data
+* Make search / browse service available
+  * Get others to adopt the standard
+  * Build index of all online action in the world
+  * Filter by target, location, country, organisation, issue and tags, author, count,
+  * Start wildfire action from scraped actions
+  * Reporting and analysis to spot trends, benchmarking, etc.
+* Use standards to make template in CAMP editable (?)
+* provide easy "CMS" for pages, use other platform in the backend
+
+# Stages
+
+* Define micro-format in wiki page and publish
+* Build parser for micro-format
+* CAMP aktionen verwenden micro-format (themes umschreiben)
+* CAMP content front-end one page dings
+
+
+# Microformat for online actions
+
+* Title
+* Photo (photo. optional. 1 or more. using any element containing a URL, such as IMG. [experimental])
+* Summary (only in teaser or meta description)
+* Description
+* Background information (hidden, show more)
+* Letter (how does this work with E2T??? or tokens?)
+* Count
+  * Target number(s)
+  * Number of participants
+  * collected elsewhere
+* Live: most recent action takers
+  * Name and last name
+  * Country
+  * Location information
+  * Comments
+  * Time stamp
+* Tag
+* Issue
+* Target (vCard)
+
+* Form fields
+
+* Language
+* Country (country-name)
+* Location (region)
+
+* Author
+* Organisation
+* Platform (which software is it?)
+* Published
+* License
+* URL
+
+
+## Title
+
+# Photo
+
+# Summary
+
+# Description
+
+# Background information
+
+# Tag
+
+The property is identified by the name tag.
+A Recipe MAY include one or more tag's.
+The property MUST follow the conventions outlined in rel-tag.
+The property is considered experimental and may be removed from the final specification.
+
+# Issue
+
+
+
+## Published
+
+<p>Published <span class="published"><span class="value-title" title="2008-10-14T10:05:37-01:00"> </span>14. Oct 2008</span></p>
